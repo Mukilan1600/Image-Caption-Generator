@@ -3,7 +3,7 @@ from utils.preprocessing import *
 from pickle import load, dump
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
-from keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 import random
 '''
 	*We have Flickr_8k.trainImages.txt and Flickr_8k.devImages.txt files which consist of unique identifiers(id) 
